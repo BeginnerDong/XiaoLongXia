@@ -1,0 +1,29 @@
+	
+
+.scrollMsg{line-height: 80rpx;padding: 0 3% 0 80rpx;position: relative;height: 80rpx;font-size: 26rpx; position: relative;z-index: 2;}
+.scrollMsg .icon{ width: 38rpx; height:38rpx;position: absolute;top: 21rpx;left: 3%;}
+
+.store_LeftNav{width:160rpx;background: #fff;}
+.store_LeftNav .item{ width: 100%; height: 112rpx; border-bottom: 2rpx solid #e1e1e1; color: #666666;}
+.store_LeftNav .item:last-child{border-bottom: 0;}
+.store_LeftNav .item.on{background: #DA251C; border-color: #DA251C; color: #FFFFFF;}
+.store_LeftNav .item .icon{width: 40rpx; height: 40rpx; display: block; margin: 16rpx 0 8rpx 0;}
+.store_rightCont{ width: 530rpx;}
+	
+/* 所选购物车商品列表弹框 */
+.proselShow{ background: #fff; position: fixed; bottom: 100rpx;left: 0;width: 100%;box-sizing: border-box; z-index: 90;padding-bottom: 80rpx;}
+.proselShow .tit{line-height: 70rpx;}
+.proselShow .item{padding: 0rpx 4%;margin-top: 30rpx;}
+.proselShow .item .titile{padding-bottom: 10rpx;}
+.proselShow .item .price{color: #222;}
+.proselShow .item .numBox{width: auto;}
+.proselShow .deltBtn{ width: 30rpx; height: 30rpx; display: block;padding: 0 10rpx; position: absolute; right: 20rpx; top: 20rpx;}
+.proselShow .deltBtn image{width: 100%; height: 100%; display: block;}
+
+/* 删除弹框 */
+.deltShow{background: rgba(0,0,0,0.5); position: fixed;top: 0;right: 0;bottom: 0;left: 0;z-index: 90;}
+.deltShow .cont{ background: #fff; width: 80%;position: fixed; top: 50%;left:50%;transform: translate(-50%,-50%);box-sizing: border-box;padding-top: 60rpx;}
+.deltShow .text{padding: 20rpx 0 50rpx;}
+.confirmBtn>view{width: 50%; line-height: 90rpx; box-sizing: border-box;}
+.confirmBtn>view:first-child{border-right:2rpx solid #eee ;}
+

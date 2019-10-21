@@ -1,0 +1,220 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",//设置页面标题文字
+				"onReachBottomDistance":100
+				// "navigationStyle":"custom" //标题隐藏
+			}
+		},
+		{
+			"path": "pages/coupon/coupon",
+			"style": {
+				"navigationBarTitleText": "优惠券",
+				"onReachBottomDistance":100
+			}
+		},
+		{
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"onReachBottomDistance":100
+			}
+		},
+		{
+			"path": "pages/HappyParty/HappyParty",
+			"style": {
+				"navigationBarTitleText": "开心派对",
+				"onReachBottomDistance":100
+			}
+		},
+		{
+			"path": "pages/HappyParty_booking/HappyParty_booking",
+			"style": {
+				"navigationBarTitleText": "预定订单",
+				"onReachBottomDistance":100
+			}
+		},
+		{
+			"path": "pages/luckDraw/luckDraw",
+			"style": {
+				"navigationBarTitleText": "抽奖",
+				"onReachBottomDistance":100
+			}
+		},
+		{
+			"path": "pages/luckDraw_result/luckDraw_result",
+			"style": {
+				"navigationBarTitleText": "抽奖结果",
+				"onReachBottomDistance":100
+			}
+		},
+		{
+			"path": "pages/desktop_scan/desktop_scan",
+			"style": {
+				"navigationBarTitleText": "扫一扫",
+				"onReachBottomDistance":100
+			}
+		},
+		{
+			"path": "pages/setCard/setCard",
+			"style": {
+				"navigationBarTitleText": "集点卡",
+				"onReachBottomDistance":100
+			}
+		},
+		{
+			"path": "pages/setCard_detail/setCard_detail",
+			"style": {
+				"navigationBarTitleText": "集点明细",
+				"onReachBottomDistance":100
+			}
+		},
+		{
+			"path": "pages/shop/shop",
+			"style": {
+				"navigationBarTitleText": "商城",
+				"onReachBottomDistance":100
+			}
+		},
+		{
+			"path": "pages/shopDetail/shopDetail",
+			"style": {
+				"navigationBarTitleText": "商品详情",
+				"onReachBottomDistance":100
+			}
+		},
+		{
+			"path": "pages/shopOrder/shopOrder",
+			"style": {
+				"navigationBarTitleText": "订单",
+				"onReachBottomDistance":100
+			}
+		},
+		{
+			"path": "pages/shopCar/shopCar",
+			"style": {
+				"navigationBarTitleText": "购物车",
+				"onReachBottomDistance":100
+			}
+		},
+		{
+			"path": "pages/confirmOrder/confirmOrder",
+			"style": {
+				"navigationBarTitleText": "确认订单",
+				"onReachBottomDistance":100
+			}
+		},
+		{
+			"path": "pages/store/store",
+			"style": {
+				"navigationBarTitleText": "门店",
+				"onReachBottomDistance":100
+			}
+		},
+		{
+			"path": "pages/store_specs/store_specs",
+			"style": {
+				"navigationBarTitleText": "选规格",
+				"onReachBottomDistance":100
+			}
+		},
+		{
+			"path": "pages/store_order/store_order",
+			"style": {
+				"navigationBarTitleText": "提交订单",
+				"onReachBottomDistance":100
+			}
+		},
+		{
+			"path": "pages/user_myBalance/user_myBalance",
+			"style": {
+				"navigationBarTitleText": "我的余额",
+				"onReachBottomDistance":100
+			}
+		},
+		{
+			"path": "pages/user_myBalance_detail/user_myBalance_detail",
+			"style": {
+				"navigationBarTitleText": "余额明细",
+				"onReachBottomDistance":100
+			}
+		},
+		{
+			"path": "pages/user_myBalance_xieyi/user_myBalance_xieyi",
+			"style": {
+				"navigationBarTitleText": "服务协议",
+				"onReachBottomDistance":100
+			}
+		},
+		{
+			"path": "pages/user_information/user_information",
+			"style": {
+				"navigationBarTitleText": "我的信息",
+				"onReachBottomDistance":100
+			}
+		},
+		{
+			"path": "pages/user_myOrder/user_myOrder",
+			"style": {
+				"navigationBarTitleText": "我的订单",
+				"onReachBottomDistance":100
+			}
+		},
+		{
+			"path": "pages/user_myBooking/user_myBooking",
+			"style": {
+				"navigationBarTitleText": "我的预订",
+				"onReachBottomDistance":100
+			}
+		},
+		{
+			"path": "pages/user_integral/user_integral",
+			"style": {
+				"navigationBarTitleText": "我的积分",
+				"onReachBottomDistance":100
+			}
+		}
+		
+	],
+	
+	"globalStyle": {
+		"navigationBarTextStyle": "black",//导航栏文字蓝色
+		"navigationBarTitleText": "小龙虾",
+		"navigationBarBackgroundColor": "#f6f6f6"
+	},
+	"condition": { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [{
+			"name": "", //模式名称
+			"path": "", //启动页面，必选
+			"query": "" //启动参数，在页面的onLoad函数里面得到
+		}]
+	},
+	"tabBar":{
+		"color":"#999",
+		"selectedColor":"#ff2e37",
+		"backgroundColor": "#ffffff",
+		"list": [
+			{
+			   "pagePath": "pages/index/index",
+			   "text": "首页",
+			   "iconPath": "static/images/nabar1.png",
+			   "selectedIconPath": "static/images/nabar1-a.png"
+			},
+			{
+			  "pagePath": "pages/coupon/coupon",
+			  "text": "优惠券",
+			  "iconPath": "static/images/nabar2.png",
+			  "selectedIconPath": "static/images/nabar2-a.png"
+			},
+			{
+			  "pagePath": "pages/user/user",
+			  "text": "我的",
+			  "iconPath": "static/images/nabar3.png",
+			  "selectedIconPath": "static/images/nabar3-a.png"
+			}
+		]
+	}
+}

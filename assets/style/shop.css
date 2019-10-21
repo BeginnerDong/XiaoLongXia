@@ -1,0 +1,21 @@
+
+/* 数量加减 */
+.numBox{ display: flex; justify-content: flex-end; position: absolute; right: 0; bottom: 0;}
+.numBox view{ width: 44rpx; height: 44rpx; border-radius: 8rpx;color: #999; font-size:32rpx ; text-align: center; line-height: 44rpx; margin: 0 2rpx; background: #F5F5F5;}
+.numBox view.num{ width: 60rpx; color: #333; font-size: 28rpx;}
+
+/* 商城商品列表 */
+.shopOrder .item{margin-top: 30rpx;padding: 20rpx; align-items: flex-start;background: #fff;}
+.shopOrder .item .LT_icon{position: absolute; top: 0;left: 0; width:66rpx; height: 69rpx; z-index: 1;}
+.shopOrder .item .ll .pic{width:200rpx ; height: 200rpx; border-radius: 10rpx; display: block;margin-right: 20rpx;}
+.shopOrder .item .rr{width: 430rpx; height: 200rpx; position: relative;}
+.shopOrder .item .rr .titile{margin: 20rpx 0 10rpx 0;}
+.shopOrder .item .rr .Bmny{position: absolute; bottom: 20rpx;left: 0; width: 100%;}
+.shopOrder .item .buyBtn{width: 140rpx; height: 50rpx;line-height: 50rpx; text-align: center;background: #DA251C; color: #FFF;border-radius: 8rpx;}
+	
+	
+	
+	
+	
+	
+	
