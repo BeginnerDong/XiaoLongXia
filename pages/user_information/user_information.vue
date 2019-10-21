@@ -51,6 +51,9 @@
 			</view>
 		</view>
 		
+		<view class="submitbtn" style="margin-top: 120rpx;">
+			<button type="button">完善信息领取礼包</button>
+		</view>
 	</view>
 </template>
 

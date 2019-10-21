@@ -3,7 +3,7 @@
 		<view class="pdlr4" style="background: #fff0ed;">
 			<view class="flexRowBetween pdt40 pdb40">
 				<view class="flex font13" style="width:50%;">积分 <view class="font16" style="margin-left:30rpx">0</view></view>
-				<view class="dhBtn font12">积分兑换</view>
+				<view class="dhBtn font12" @click="Router.navigateTo({route:{path:'/pages/shop/shop'}})">积分兑换</view>
 			</view>
 		</view>
 		

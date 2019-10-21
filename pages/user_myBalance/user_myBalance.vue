@@ -22,10 +22,13 @@
 		<view class="under_agreeBtn">
 			<view class="pdlr4 whiteBj">
 				<view class="agreeSel" @click="xieyiAlert">
-					<view class="selt" style="margin-right: 16rpx;" @click="seltBtn">
-						<image v-show="!is_show" src="../../static/images/address-icon1.png" mode=""></image>
-						<image v-show="is_show" src="../../static/images/address-icon.png" mode=""></image>
+					<view class="selt" v-show="!is_show" style="margin-right: 16rpx;" @click="seltBtn">
+						<image src="../../static/images/address-icon1.png" mode="widthFix"></image>
 					</view>
+					<view class="selt" v-show="is_show" style="margin-right: 16rpx;" @click="seltBtn">
+						<image v-show="is_show" src="../../static/images/address-icon.png" mode="widthFix"></image>
+					</view>
+					
 					<view class="text flex">我已阅读并同意<view class="pubColor" @click="Router.navigateTo({route:{path:'/pages/user_myBalance_xieyi/user_myBalance_xieyi'}})">《充值服务章程及协议》</view></view>
 				</view>
 			</view>
