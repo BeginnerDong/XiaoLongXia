@@ -1,178 +1,174 @@
 {
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录",//设置页面标题文字
+				"onReachBottomDistance":100,
+				"navigationStyle":"custom" //标题隐藏
+			}
+		},
+		{
+			"path": "pages/forgetPswd/forgetPswd",
+			"style": {
+				"navigationBarTitleText": "",//设置页面标题文字
+				"onReachBottomDistance":100,
+				"navigationStyle":"custom" //标题隐藏
+			}
+		},
+		{
 			"path": "pages/index/index",
 			"style": {
 				"navigationBarTitleText": "首页",//设置页面标题文字
-				"onReachBottomDistance":100
-				// "navigationStyle":"custom" //标题隐藏
+				"onReachBottomDistance":100,
+				"navigationStyle":"custom" //标题隐藏
 			}
 		},
 		{
-			"path": "pages/coupon/coupon",
+			"path": "pages/myBankCard/myBankCard",
 			"style": {
-				"navigationBarTitleText": "优惠券",
-				"onReachBottomDistance":100
-			}
-		},
-		{
-			"path": "pages/user/user",
-			"style": {
-				"navigationBarTitleText": "我的",
+				"navigationBarTitleText": "银行卡管理",//设置页面标题文字
 				"onReachBottomDistance":100
 			}
 		},
 		{
-			"path": "pages/HappyParty/HappyParty",
+			"path": "pages/myBankCard_add/myBankCard_add",
 			"style": {
-				"navigationBarTitleText": "开心派对",
+				"navigationBarTitleText": "银行卡绑定",//设置页面标题文字
 				"onReachBottomDistance":100
 			}
 		},
 		{
-			"path": "pages/HappyParty_booking/HappyParty_booking",
+			"path": "pages/myBankCard_edit/myBankCard_edit",
 			"style": {
-				"navigationBarTitleText": "预定订单",
+				"navigationBarTitleText": "银行卡编辑",//设置页面标题文字
 				"onReachBottomDistance":100
 			}
 		},
 		{
-			"path": "pages/luckDraw/luckDraw",
+			"path": "pages/myCashOut/myCashOut",
 			"style": {
-				"navigationBarTitleText": "抽奖",
+				"navigationBarTitleText": "提现",//设置页面标题文字
 				"onReachBottomDistance":100
 			}
 		},
 		{
-			"path": "pages/luckDraw_result/luckDraw_result",
+			"path": "pages/myExtension/myExtension",
 			"style": {
-				"navigationBarTitleText": "抽奖结果",
+				"navigationBarTitleText": "我的推广",//设置页面标题文字
 				"onReachBottomDistance":100
 			}
 		},
 		{
-			"path": "pages/desktop_scan/desktop_scan",
+			"path": "pages/myExtension_share/myExtension_share",
 			"style": {
-				"navigationBarTitleText": "扫一扫",
+				"navigationBarTitleText": "分享",//设置页面标题文字
+				"onReachBottomDistance":100,
+				"navigationStyle":"custom" //标题隐藏
+			}
+		},
+		{
+			"path": "pages/myIncome/myIncome",
+			"style": {
+				"navigationBarTitleText": "我的收入",//设置页面标题文字
 				"onReachBottomDistance":100
 			}
 		},
 		{
-			"path": "pages/setCard/setCard",
+			"path": "pages/myNotice/myNotice",
 			"style": {
-				"navigationBarTitleText": "集点卡",
+				"navigationBarTitleText": "通知中心",//设置页面标题文字
 				"onReachBottomDistance":100
 			}
 		},
 		{
-			"path": "pages/setCard_detail/setCard_detail",
+			"path": "pages/myNotice_Detail/myNotice_Detail",
 			"style": {
-				"navigationBarTitleText": "集点明细",
+				"navigationBarTitleText": "通知详情",//设置页面标题文字
 				"onReachBottomDistance":100
 			}
 		},
 		{
-			"path": "pages/shop/shop",
+			"path": "pages/myOrder/myOrder",
 			"style": {
-				"navigationBarTitleText": "商城",
+				"navigationBarTitleText": "我的订单",//设置页面标题文字
 				"onReachBottomDistance":100
 			}
 		},
 		{
-			"path": "pages/shopDetail/shopDetail",
+			"path": "pages/orderDetail_Agency/orderDetail_Agency",
 			"style": {
-				"navigationBarTitleText": "商品详情",
+				"navigationBarTitleText": "订单详情",//设置页面标题文字
 				"onReachBottomDistance":100
 			}
 		},
 		{
-			"path": "pages/shopOrder/shopOrder",
+			"path": "pages/orderDetail_daimai/orderDetail_daimai",
 			"style": {
-				"navigationBarTitleText": "订单",
+				"navigationBarTitleText": "订单详情",//设置页面标题文字
 				"onReachBottomDistance":100
 			}
 		},
 		{
-			"path": "pages/shopCar/shopCar",
+			"path": "pages/orderDetail_fetchDeliver/orderDetail_fetchDeliver",
 			"style": {
-				"navigationBarTitleText": "购物车",
+				"navigationBarTitleText": "订单详情",//设置页面标题文字
 				"onReachBottomDistance":100
 			}
 		},
 		{
-			"path": "pages/confirmOrder/confirmOrder",
+			"path": "pages/orderDetail_sameDay/orderDetail_sameDay",
 			"style": {
-				"navigationBarTitleText": "确认订单",
+				"navigationBarTitleText": "订单详情",//设置页面标题文字
 				"onReachBottomDistance":100
 			}
 		},
 		{
-			"path": "pages/store/store",
+			"path": "pages/orderDetail_waimai/orderDetail_waimai",
 			"style": {
-				"navigationBarTitleText": "门店",
+				"navigationBarTitleText": "订单详情",//设置页面标题文字
 				"onReachBottomDistance":100
 			}
 		},
 		{
-			"path": "pages/store_specs/store_specs",
+			"path": "pages/orderDetailTwo_Agency/orderDetailTwo_Agency",
 			"style": {
-				"navigationBarTitleText": "选规格",
+				"navigationBarTitleText": "订单详情",//设置页面标题文字
 				"onReachBottomDistance":100
 			}
 		},
 		{
-			"path": "pages/store_order/store_order",
+			"path": "pages/orderDetailTwo_daimai/orderDetailTwo_daimai",
 			"style": {
-				"navigationBarTitleText": "提交订单",
+				"navigationBarTitleText": "订单详情",//设置页面标题文字
 				"onReachBottomDistance":100
 			}
 		},
 		{
-			"path": "pages/user_myBalance/user_myBalance",
+			"path": "pages/orderDetailTwo_fetchDeliver/orderDetailTwo_fetchDeliver",
 			"style": {
-				"navigationBarTitleText": "我的余额",
+				"navigationBarTitleText": "订单详情",//设置页面标题文字
 				"onReachBottomDistance":100
 			}
 		},
 		{
-			"path": "pages/user_myBalance_detail/user_myBalance_detail",
+			"path": "pages/orderDetailTwo_sameDay/orderDetailTwo_sameDay",
 			"style": {
-				"navigationBarTitleText": "余额明细",
+				"navigationBarTitleText": "订单详情",//设置页面标题文字
 				"onReachBottomDistance":100
 			}
 		},
 		{
-			"path": "pages/user_myBalance_xieyi/user_myBalance_xieyi",
+			"path": "pages/orderDetailTwo_waimai/orderDetailTwo_waimai",
 			"style": {
-				"navigationBarTitleText": "服务协议",
+				"navigationBarTitleText": "订单详情",//设置页面标题文字
 				"onReachBottomDistance":100
 			}
 		},
 		{
-			"path": "pages/user_information/user_information",
+			"path": "pages/userInfor/userInfor",
 			"style": {
-				"navigationBarTitleText": "我的信息",
-				"onReachBottomDistance":100
-			}
-		},
-		{
-			"path": "pages/user_myOrder/user_myOrder",
-			"style": {
-				"navigationBarTitleText": "我的订单",
-				"onReachBottomDistance":100
-			}
-		},
-		{
-			"path": "pages/user_myBooking/user_myBooking",
-			"style": {
-				"navigationBarTitleText": "我的预订",
-				"onReachBottomDistance":100
-			}
-		},
-		{
-			"path": "pages/user_integral/user_integral",
-			"style": {
-				"navigationBarTitleText": "我的积分",
+				"navigationBarTitleText": "基本信息",//设置页面标题文字
 				"onReachBottomDistance":100
 			}
 		}
@@ -180,9 +176,9 @@
 	],
 	
 	"globalStyle": {
-		"navigationBarTextStyle": "black",//导航栏文字蓝色
-		"navigationBarTitleText": "小龙虾",
-		"navigationBarBackgroundColor": "#f6f6f6"
+		"navigationBarTextStyle": "white",//导航栏文字蓝色
+		"navigationBarTitleText": "配送小程序-骑手端",
+		"navigationBarBackgroundColor": "#2fa0ed"
 	},
 	"condition": { //模式配置，仅开发期间生效
 		"current": 0, //当前激活的模式(list 的索引项)
@@ -191,30 +187,5 @@
 			"path": "", //启动页面，必选
 			"query": "" //启动参数，在页面的onLoad函数里面得到
 		}]
-	},
-	"tabBar":{
-		"color":"#999",
-		"selectedColor":"#ff2e37",
-		"backgroundColor": "#ffffff",
-		"list": [
-			{
-			   "pagePath": "pages/index/index",
-			   "text": "首页",
-			   "iconPath": "static/images/nabar1.png",
-			   "selectedIconPath": "static/images/nabar1-a.png"
-			},
-			{
-			  "pagePath": "pages/coupon/coupon",
-			  "text": "优惠券",
-			  "iconPath": "static/images/nabar2.png",
-			  "selectedIconPath": "static/images/nabar2-a.png"
-			},
-			{
-			  "pagePath": "pages/user/user",
-			  "text": "我的",
-			  "iconPath": "static/images/nabar3.png",
-			  "selectedIconPath": "static/images/nabar3-a.png"
-			}
-		]
 	}
 }
