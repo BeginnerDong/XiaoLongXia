@@ -35,6 +35,20 @@
 	}
 </script>
 <style>
-	.swiper-box{border-radius:10rpx;overflow: hidden;}
+	.swiper-box {
+		height: 360rpx;
+		box-sizing: border-box;
+		overflow: hidden;
+		border-radius:10rpx;
+	}
+	
+	.swiper-box swiper-item {
+		width: 100%;
+	}
+	
+	.swiper-box image {
+		width: 100%;
+		height: 100%;
+	}
 </style>
 

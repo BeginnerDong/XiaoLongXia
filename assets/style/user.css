@@ -1,8 +1,21 @@
+@charset "UTF-8";
 
 
-.myExtendTop{width: 100%; text-align: center;box-sizing: border-box;padding: 20px 4% 60px 4%; background: #2FA0ED;}
-.myExtendTop .bigNum{font-size: 30px; line-height:30px;}
-.myExtendTop .txBtn{ width: 100px; height: 30px;line-height: 30px; background: #fff; color: #2FA0ED; border-radius: 3px; margin: 0 auto;font-size: 13px; display: block;}
+/* 我的 */
+.userHead{background: #2FA0ED;color: #fff;font-size: 14px;box-sizing: border-box;padding:25px 4%;}
+.userHead .photo{width: 60px;height: 60px;border-radius: 50%;margin-right: 10px;border: 2px solid #7ec2f0;}
+.userHead .left{display: flex;align-items: center;justify-content: flex-start;}
+
+.userBox2{ margin: 0 4%; background: #fff;margin: 15px 4%;}
+.userBox2 .tit{font-size: 14px;height: 44px;padding: 0 10px;border-bottom: 1px solid #EEEEEE;}
+.userBox2 .more{color: #999;font-size: 12px;}
+.userBox2 .menu .child{width: 25%;text-align: center;font-size: 12px;color: #666;padding: 15px 0;}
+.userBox2 .menu .child a{display: block;width: 100%;}
+.userBox2 .menu .child img{width:22px;height: 22px;display: block;margin: 0 auto;margin-bottom: 5px;}
+
+.XlineNav .info{width: 100%;box-sizing: border-box;border-bottom: solid 1px #F2F2F2;box-sizing: border-box;height: 50px;font-size: 14px;display: flex; justify-content: space-between;align-items: center;box-sizing: border-box;}
+.XlineNav .icon{width: 18px;height: 18px;margin-right: 10px; display: block;}
+.XlineNav .info .right{display: flex; justify-content: flex-end; align-items: center;}
 
 /* 总数量显示 */
 .jifenTwoNum{background: #fff; margin-top: -25px;padding: 10px 10px; margin:-38px 4% 10px 4%;}
@@ -10,11 +23,3 @@
 .jifenTwoNum .item:first-child{border-right: 1px solid #eee;}
 .jifenTwoNum .item .arrow{width: 9px; height: 5px; display: block;margin-left: 3px;}
 
-/* 信息RowBetween */
-.orderBetween .item{ padding: 10px 4%;border-bottom: 1px solid #eee;background: #fff;}
-.orderBetween .item .left{width: 70%;}
-.orderBetween .item .right{width: 30%; text-align: right;}
-.orderBetween .item .left .tex2{padding-left:18px;position: relative;line-height: 18px;}
-.orderBetween .item .left .tex2 .icon{width: 15px; height: 15px; display: block; background: url(../../static/images/the_order-icon.png) no-repeat 0 0/100% 100%; position: absolute; top:50%; left: 0; transform: translateY(-50%);}
-
-.orderBetween .item .left .photo{width: 40px; height: 40px;border-radius: 50%; display: block;margin-right: 10px;}

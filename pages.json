@@ -1,183 +1,249 @@
 {
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		{
-			"path": "pages/login/login",
-			"style": {
-				"navigationBarTitleText": "登录",//设置页面标题文字
-				"onReachBottomDistance":100,
-				"navigationStyle":"custom" //标题隐藏
-			}
-		},
-		{
-			"path": "pages/forgetPswd/forgetPswd",
-			"style": {
-				"navigationBarTitleText": "",//设置页面标题文字
-				"onReachBottomDistance":100,
-				"navigationStyle":"custom" //标题隐藏
-			}
-		},
-		{
 			"path": "pages/index/index",
 			"style": {
 				"navigationBarTitleText": "首页",//设置页面标题文字
-				"onReachBottomDistance":100,
-				"navigationStyle":"custom" //标题隐藏
+				"onReachBottomDistance":100
+				 //"navigationStyle":"custom"标题隐藏
 			}
 		},
 		{
-			"path": "pages/myBankCard/myBankCard",
+			"path": "pages/address/address",
 			"style": {
-				"navigationBarTitleText": "银行卡管理",//设置页面标题文字
+				"navigationBarTitleText": "我的地址",//设置页面标题文字
 				"onReachBottomDistance":100
 			}
 		},
 		{
-			"path": "pages/myBankCard_add/myBankCard_add",
+			"path": "pages/address_add/address_add",
 			"style": {
-				"navigationBarTitleText": "银行卡绑定",//设置页面标题文字
+				"navigationBarTitleText": "添加收货地址",
 				"onReachBottomDistance":100
 			}
 		},
 		{
-			"path": "pages/myBankCard_edit/myBankCard_edit",
+			"path": "pages/address_edit/address_edit",
 			"style": {
-				"navigationBarTitleText": "银行卡编辑",//设置页面标题文字
+				"navigationBarTitleText": "编辑收货地址",
 				"onReachBottomDistance":100
 			}
 		},
 		{
-			"path": "pages/myCashOut/myCashOut",
+			"path": "pages/business/business",
 			"style": {
-				"navigationBarTitleText": "提现",//设置页面标题文字
+				"navigationBarTitleText": "商家",
 				"onReachBottomDistance":100
 			}
 		},
 		{
-			"path": "pages/myExtension/myExtension",
+			"path": "pages/business_cashOut/business_cashOut",
 			"style": {
-				"navigationBarTitleText": "我的推广",//设置页面标题文字
+				"navigationBarTitleText": "提现审核",
 				"onReachBottomDistance":100
 			}
 		},
 		{
-			"path": "pages/myExtension_share/myExtension_share",
+			"path": "pages/business_cashOutDetail/business_cashOutDetail",
 			"style": {
-				"navigationBarTitleText": "分享",//设置页面标题文字
-				"onReachBottomDistance":100,
-				"navigationStyle":"custom" //标题隐藏
-			}
-		},
-		{
-			"path": "pages/myIncome/myIncome",
-			"style": {
-				"navigationBarTitleText": "我的收入",//设置页面标题文字
+				"navigationBarTitleText": "提现审核",
 				"onReachBottomDistance":100
 			}
 		},
 		{
-			"path": "pages/myNotice/myNotice",
+			"path": "pages/business_deliveryFee/business_deliveryFee",
 			"style": {
-				"navigationBarTitleText": "通知中心",//设置页面标题文字
+				"navigationBarTitleText": "配送费用",
 				"onReachBottomDistance":100
 			}
 		},
 		{
-			"path": "pages/myNotice_Detail/myNotice_Detail",
+			"path": "pages/business_goods/business_goods",
 			"style": {
-				"navigationBarTitleText": "通知详情",//设置页面标题文字
+				"navigationBarTitleText": "商品管理",
 				"onReachBottomDistance":100
 			}
 		},
 		{
-			"path": "pages/myOrder/myOrder",
+			"path": "pages/confirmOrder/confirmOrder",
 			"style": {
-				"navigationBarTitleText": "我的订单",//设置页面标题文字
+				"navigationBarTitleText": "确认订单",
 				"onReachBottomDistance":100
 			}
 		},
 		{
-			"path": "pages/orderDetail_Agency/orderDetail_Agency",
+			"path": "pages/user/user",
 			"style": {
-				"navigationBarTitleText": "订单详情",//设置页面标题文字
+				"navigationBarTitleText": "我的",
 				"onReachBottomDistance":100
 			}
 		},
 		{
-			"path": "pages/orderDetail_daimai/orderDetail_daimai",
+			"path": "pages/business_goods_edit/business_goods_edit",
 			"style": {
-				"navigationBarTitleText": "订单详情",//设置页面标题文字
+				"navigationBarTitleText": "修改商品",
 				"onReachBottomDistance":100
 			}
 		},
 		{
-			"path": "pages/orderDetail_fetchDeliver/orderDetail_fetchDeliver",
+			"path": "pages/business_login/business_login",
 			"style": {
-				"navigationBarTitleText": "订单详情",//设置页面标题文字
+				"navigationBarTitleText": "登录",
 				"onReachBottomDistance":100
 			}
 		},
 		{
-			"path": "pages/orderDetail_sameDay/orderDetail_sameDay",
+			"path": "pages/business_myMoney/business_myMoney",
 			"style": {
-				"navigationBarTitleText": "订单详情",//设置页面标题文字
+				"navigationBarTitleText": "收益管理",
 				"onReachBottomDistance":100
 			}
 		},
 		{
-			"path": "pages/orderDetail_waimai/orderDetail_waimai",
+			"path": "pages/business_myOrder/business_myOrder",
 			"style": {
-				"navigationBarTitleText": "订单详情",//设置页面标题文字
+				"navigationBarTitleText": "我的订单",
 				"onReachBottomDistance":100
 			}
 		},
 		{
-			"path": "pages/orderDetailTwo_Agency/orderDetailTwo_Agency",
+			"path": "pages/business_myOrder_Detail/business_myOrder_Detail",
 			"style": {
-				"navigationBarTitleText": "订单详情",//设置页面标题文字
+				"navigationBarTitleText": "订单详情",
 				"onReachBottomDistance":100
 			}
 		},
 		{
-			"path": "pages/orderDetailTwo_daimai/orderDetailTwo_daimai",
+			"path": "pages/business_myOrder_evaluate/business_myOrder_evaluate",
 			"style": {
-				"navigationBarTitleText": "订单详情",//设置页面标题文字
+				"navigationBarTitleText": "评价订单",
 				"onReachBottomDistance":100
 			}
 		},
 		{
-			"path": "pages/orderDetailTwo_fetchDeliver/orderDetailTwo_fetchDeliver",
+			"path": "pages/business_myOrder_refundDetail/business_myOrder_refundDetail",
 			"style": {
-				"navigationBarTitleText": "订单详情",//设置页面标题文字
+				"navigationBarTitleText": "退款",
 				"onReachBottomDistance":100
 			}
 		},
 		{
-			"path": "pages/orderDetailTwo_sameDay/orderDetailTwo_sameDay",
+			"path": "pages/business_myOrder_refuse/business_myOrder_refuse",
 			"style": {
-				"navigationBarTitleText": "订单详情",//设置页面标题文字
+				"navigationBarTitleText": "退款",
 				"onReachBottomDistance":100
 			}
 		},
 		{
-			"path": "pages/orderDetailTwo_waimai/orderDetailTwo_waimai",
+			"path": "pages/business_myOrder_refuseOk/business_myOrder_refuseOk",
 			"style": {
-				"navigationBarTitleText": "订单详情",//设置页面标题文字
+				"navigationBarTitleText": "退款",
 				"onReachBottomDistance":100
 			}
 		},
 		{
-			"path": "pages/userInfor/userInfor",
+			"path": "pages/business_releaseGoods/business_releaseGoods",
 			"style": {
-				"navigationBarTitleText": "基本信息",//设置页面标题文字
+				"navigationBarTitleText": "发布商品",
+				"onReachBottomDistance":100
+			}
+		},
+		{
+			"path": "pages/business_store/business_store",
+			"style": {
+				"navigationBarTitleText": "店铺管理",
+				"onReachBottomDistance":100
+			}
+		},
+		{
+			"path": "pages/goodsDetail/goodsDetail",
+			"style": {
+				"navigationBarTitleText": "商品详情",
+				"onReachBottomDistance":100
+			}
+		},
+		{
+			"path": "pages/user_myBankCard/user_myBankCard",
+			"style": {
+				"navigationBarTitleText": "银行卡管理",
+				"onReachBottomDistance":100
+			}
+		},
+		{
+			"path": "pages/user_myBankCard_add/user_myBankCard_add",
+			"style": {
+				"navigationBarTitleText": "添加银行卡",
+				"onReachBottomDistance":100
+			}
+		},
+		{
+			"path": "pages/user_myBankCard_edit/user_myBankCard_edit",
+			"style": {
+				"navigationBarTitleText": "编辑银行卡",
+				"onReachBottomDistance":100
+			}
+		},
+		{
+			"path": "pages/user_myCashOut/user_myCashOut",
+			"style": {
+				"navigationBarTitleText": "提现",
+				"onReachBottomDistance":100
+			}
+		},
+		{
+			"path": "pages/user_myMoney/user_myMoney",
+			"style": {
+				"navigationBarTitleText": "我的收益",
+				"onReachBottomDistance":100
+			}
+		},
+		{
+			"path": "pages/user_myOrder/user_myOrder",
+			"style": {
+				"navigationBarTitleText": "我的订单",
+				"onReachBottomDistance":100
+			}
+		},
+		{
+			"path": "pages/user_myOrder_Detail/user_myOrder_Detail",
+			"style": {
+				"navigationBarTitleText": "订单详情",
+				"onReachBottomDistance":100
+			}
+		},
+		{
+			"path": "pages/user_myOrder_evaluate/user_myOrder_evaluate",
+			"style": {
+				"navigationBarTitleText": "评价订单",
+				"onReachBottomDistance":100
+			}
+		},
+		{
+			"path": "pages/user_myOrder_refund/user_myOrder_refund",
+			"style": {
+				"navigationBarTitleText": "退款",
+				"onReachBottomDistance":100
+			}
+		},
+		{
+			"path": "pages/user_myOrder_refundDetail/user_myOrder_refundDetail",
+			"style": {
+				"navigationBarTitleText": "退款",
+				"onReachBottomDistance":100
+			}
+		},
+		{
+			"path": "pages/user_myOrder_refundDetail_Reply/user_myOrder_refundDetail_Reply",
+			"style": {
+				"navigationBarTitleText": "退款",
 				"onReachBottomDistance":100
 			}
 		}
-		
 	],
 	
 	"globalStyle": {
 		"navigationBarTextStyle": "white",//导航栏文字蓝色
-		"navigationBarTitleText": "配送小程序-骑手端",
+		"navigationBarTitleText": "配送小程序-餐饮端",
 		"navigationBarBackgroundColor": "#2fa0ed"
 	},
 	"condition": { //模式配置，仅开发期间生效

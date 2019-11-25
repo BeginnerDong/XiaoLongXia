@@ -9,22 +9,6 @@ em,i{font-style:normal;}
 button,input{ border: none;}
 input, button,textarea{ cursor: pointer; -webkit-appearance: none;-webkit-tap-highlight-color:rgba(0,0,0,0);tap-highlight-color:rgba(0,0,0,0); line-height: 20px; }
 input[type="checkbox"]{ -webkit-appearance: checkbox;-moz-appearance: checkbox;appearance: checkbox;}
-textarea::-webkit-input-placeholder,input::-webkit-input-placeholder{color: #999;}
-table{display: table; border-collapse: separate; border-spacing: 2px; border-color: grey; border-collapse: collapse; border-spacing: 0;background-color: transparent;}
-thead{display: table-header-group; vertical-align: middle; border-color: inherit;}
-tbody{display: table-row-group; vertical-align: middle; border-color: inherit;}
-h1,h2,h3,h4,h5,h6{font-size:100%;}
-
-/* 背景色 */
-.f5bj{background: #f5f5f5;}
-.whiteBj{background: #fff;}
-.pubBj{ background: #2fa0ed;}
-.pubColor{ color: #2fa0ed;}
-
-.boxShaow{box-shadow: 0 0 8px rgba(0,0,0,0.1);}
-.radius10{border-radius:10px;}
-.radius5{border-radius:5px;}
-.radius8{border-radius:8px;}
 
 /*头部标题*/
 .T-head{ background: #2fa0ed; color: #FFF;}
@@ -41,49 +25,18 @@ h1,h2,h3,h4,h5,h6{font-size:100%;}
 .color6{color: #666;}
 .color9{color: #999;}
 
-.f5H5{height: 5px; background: #f5f5f5;}
-.f5H10{ height: 10px; background: #f5f5f5;}
-
-/* 提交按钮 */
-.submitbtn .btn{width: 80%; height: 40px; line-height: 40px; text-align: center; color: #fff; background: #2FA0ED;font-size:14px; margin: 0 auto 30px auto; display:block;border-radius: 5px;}
-
-.submitbtn .Wbtn{width: 100%; height: 40px; line-height: 40px; text-align: center; color: #fff; background: #2FA0ED; border-radius: 10rpx; font-size:14px;  display:block;border-radius: 5px;}
-
-
-.bordB1{ border-bottom: 1px solid #eee;}
-.bordBno{ border-bottom: none;}
-
 .price{ color: #ff3b3b;font-size: 15px;}
 .price::before{content: "￥";font-size: 12px;font-weight: normal;}
 .yuanJia{ color: #999; font-size: 12px; text-decoration: line-through;}
 .yuanJia::before{content: "￥";}
 
-.yzmBtn{color: #2fa0ed;padding: 20rpx 20rpx; background: #fff;background: #fff; z-index: 2;}
-
 .arrowR{width: 6px; height: 11px; display: block; margin-left: 5px;}
+
 
 a:link, a:visited {text-decoration: none; outline: none;}
 
 .clearfix:after{clear:both;display:block;content:"";height:0;line-height:0;visibility:hidden;}
 .clearfix{zoom:1;}
-
-.w{ width: 100%;}
-.oh{ overflow: hidden;}
-.fl{float: left;}
-.fr{float: right;}
-.cl{clear: both;}
-.center{text-align: center;}
-
-.pubBtn{ width: 100%;height: 40px; line-height: 40px;background: #2fa0ed; color: #fff; text-align: center;border-radius: 30px; display: block; margin: 0 auto;}
-
-.black-bj {background: #000;opacity: 0.5;position: fixed;left: 0;top: 0;right: 0;bottom: 0;z-index: 88;}
-.closebtn{ position:absolute; left:50%; top:10px;transform: translateX(-50%); width:24px; height:24px; background:#fff; text-align:center; line-height:22px; cursor:pointer; border-radius:50%; box-shadow:0 0 3px #333; z-index:99; font-size: 18px;color: #999;}
-
-/* 灰色关闭按钮 */
-.c5Rclose{position: absolute; top: 10px;right: 10px;transform: translateX(-50%); width: 20px; height: 20px; border-radius: 50%; font-size: 20px; color: #c5c5c5; border:1px solid #c5c5c5; line-height: 16px; text-align: center;}
-
-/* 右上角-关闭按钮 */
-.colseBtn{ position: absolute; top: 10px;right: 10px;transform: translateX(-50%); width: 20px; height: 20px; border-radius: 50%; font-size: 20px; color: #999; border:1px solid #999; line-height: 16px; text-align: center; }
 
 
 .h44{ height: 44px;}
@@ -232,28 +185,6 @@ a:link, a:visited {text-decoration: none; outline: none;}
 .pdtb15{padding:15px 0;}
 .pdtb20{padding:20px 0;}
 .pdtb30{padding:30px 0;}
-
-
-/* 行数显示省略号 */
-.avoidOverflow{overflow:hidden;text-overflow:ellipsis; white-space:nowrap;}
-.avoidOverflow2{overflow: hidden;text-overflow: ellipsis;display:-webkit-box;word-break:break-all;-webkit-box-orient:vertical; -webkit-line-clamp:2;}
-.avoidOverflow3{ overflow: hidden; text-overflow: ellipsis;  display: -webkit-box;  word-break: break-all; -webkit-box-orient: vertical;-webkit-line-clamp: 3;}
-.avoidOverflow4{overflow: hidden;text-overflow: ellipsis;display: -webkit-box; word-break: break-all;-webkit-box-orient: vertical; -webkit-line-clamp: 4; }
-.arrowBtn{ position: absolute; width: 100%; top: 40%;z-index: 3;left: 0;}
-.arrowBtn .btn{width: 40px; height: 40px; line-height: 40px; text-align: center; border-radius: 50%; background: #b5b5b6; color: #fff; font-size: 30px; cursor: pointer; }
-
-/* 弹性盒子 */
-.flex{display:flex;align-items:center;}
-.flexCenter{display:flex;align-items:center;justify-content:center;}
-.flexRowAround{display:flex;flex-direction:row;	justify-content: space-around;align-items:center;}
-.flexRowBetween{display:flex;flex-direction:row;justify-content:space-between;align-items:center;}
-.flexEnd{ display: flex; justify-content: flex-end; align-items: center;}
-.flexColumn{display: flex; flex-direction: column; align-items: center;}
-
-/* 文本详情 */
-.xqTex_infor p{ color: #666; font-size: 13px; line-height: 24px;padding-bottom: 10px;}
-.xqTex_infor img{max-width: 100%; display: block; margin: 0 auto;}
-
 
 
 
